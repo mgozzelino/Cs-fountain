@@ -29,7 +29,7 @@ fixed_tau0 = False
 show_plot = False
 
 lock1 = True  #put False if measurement are done only in lock2
-lock2 = False  #put False if measurement are done only in lock1
+lock2 = True  #put False if measurement are done only in lock1
 
 tau0 = [2.45, 2.85]
 
