@@ -21,4 +21,4 @@ Column 2 and 6 are accessory and not used. TOF signals correspond to the 4 clock
 
 Frequency files **must** have "Lock1.txt" and "Lock2.txt" as suffix and extension.
 
-  The data analysis also assumes a second data file in which the magnetic field is measured on a sensitive transition (in the default case the Majorana transitions $|F=3,m_F=0\rangle \Rightarrow |F=3, m_F=\pm 1 \rangle$
+  The data analysis also assumes a second data file in which the magnetic field is measured on a sensitive transition (in the default case the Majorana transitions $|F=3,m_F=0 \rangle \Rightarrow |F=3, m_F=\pm 1 \rangle$
