@@ -1,0 +1,6 @@
+#this file contains the latest estimate of collisional coefficients, its uncertainty and the sum of weights
+#MJD	k	sig_k	sum(ki wi)	sum(wi)
+59876	-1.883053E-13	1.51297E-14	-8.2262524E+14	4.3685714E+27
+
+
+	
