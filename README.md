@@ -8,7 +8,8 @@ Output data have a custom arbitrary sampling rate.
 ## Data type
 The software assumes data in relative frequency (Inline Equation: $y$) and can handle one interleaved measurement (typically between high and low atom density).
 
-  The file format for the frequency data is:
+  The file format for the frequency data is:  
+  
     - timestamp [MJD] (column 0)
     - $y$ (column 1)
     - Time of flight (TOF) signal, "left" F=4 population (column 4)
@@ -20,4 +21,4 @@ Column 2 and 6 are accessory and not used. TOF signals correspond to the 4 clock
 
 Frequency files **must** have "Lock1.txt" and "Lock2.txt" as suffix and extension.
 
-  The data analysis also assumes a second data file in which the magnetic field is measured on a sensitive transition (in the default case the Majorana transitions $|F=3,m_F=0\rangle \right-arrow |F=3, m_F=\pm 1 \rangle$
+  The data analysis also assumes a second data file in which the magnetic field is measured on a sensitive transition (in the default case the Majorana transitions $|F=3,m_F=0\rangle \Rightarrow |F=3, m_F=\pm 1 \rangle$
